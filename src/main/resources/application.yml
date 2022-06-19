@@ -1,0 +1,22 @@
+spring:
+  mail: email-smtp.us-east-1.amazonaws.com
+    host:
+    port: 587
+    username: AKIADVQJEBXKDB24QWIT
+    password: BBIn/zuvEstAAICTDZSqew2rSTB1Bgruj+87hGSPS
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+server:
+  port: 8881
+
+
+
